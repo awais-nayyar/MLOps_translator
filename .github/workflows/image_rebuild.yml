@@ -1,7 +1,7 @@
 name: Docker Image Rebuilding
 on:
   push:
-    branches: [ translator ]
+    branches: [ main ]
 jobs:
   compile:
     name: Build and run the container
